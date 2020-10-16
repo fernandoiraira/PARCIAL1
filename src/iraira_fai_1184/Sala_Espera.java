@@ -123,5 +123,4 @@ public class Sala_Espera {
         this.sillasDisp++;
         mutex.release();        
     }
-
 }
