@@ -13,7 +13,7 @@ public class main {
 
     public static void main(String[] args) {
         int cantPacientes = 12;
-        Sala_Espera sala = new Sala_Espera(3);
+        Sala_Espera sala = new Sala_Espera(12);
 
         Recepcionista recepcionista = new Recepcionista(sala);
         Thread r = new Thread(recepcionista);
