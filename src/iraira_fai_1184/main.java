@@ -33,7 +33,5 @@ public class main {
             Thread t = new Thread(p, "Paciente " + i);
             t.start();
         }
-
     }
-
 }
